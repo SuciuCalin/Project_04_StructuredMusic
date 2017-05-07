@@ -30,6 +30,7 @@ public class PlaylistsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PlaylistsActivity.this, NowPlayingActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -39,6 +40,7 @@ public class PlaylistsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PlaylistsActivity.this, AlbumsActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -48,6 +50,7 @@ public class PlaylistsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PlaylistsActivity.this, SongsActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -57,6 +60,7 @@ public class PlaylistsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(PlaylistsActivity.this, NowPlayingActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
