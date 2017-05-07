@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme colors -->
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--main_activity category Text colors-->
+    <color name="textColor">@android:color/black</color>
+
+    <!--Informational Text View colors-->
+    <color name="infoBackground">@android:color/darker_gray</color>
+    <color name="InfoText">@android:color/black</color>
+
+    <!--selected category button colors-->
+    <color name="selectedCategory">@android:color/black</color>
+
+    <!--separation View colors-->
+    <color name="separationViewBackground">@android:color/holo_blue_light</color>
+
+</resources>

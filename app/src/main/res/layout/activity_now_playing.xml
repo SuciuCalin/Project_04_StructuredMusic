@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ParentLayout">
+
+    <LinearLayout
+        style="@style/CategoriesLayout">
+
+        <Button
+            android:id="@+id/nowPlayingButton"
+            android:background="@drawable/ic_nowplaying"
+            android:backgroundTint="@color/selectedCategory"
+            style="@style/CategoriesButtons"/>
+
+        <Button
+            android:id="@+id/albumsButton"
+            android:background="@drawable/ic_albums"
+            style="@style/CategoriesButtons"/>
+
+        <Button
+            android:id="@+id/songsButton"
+            android:background="@drawable/ic_songs"
+            style="@style/CategoriesButtons"/>
+
+        <Button
+            android:id="@+id/playlistsButton"
+            android:background="@drawable/ic_playlists"
+            style="@style/CategoriesButtons"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/SeparationView"/>
+
+    <ImageView
+        style="@style/nowPlayingImage"
+        android:src="@drawable/ic_play_circle_filled_black_24dp"/>
+
+    <TextView
+        android:id="@+id/nowPlayingDisplay"
+        android:text="@string/nowPlaying"
+        style="@style/CategoriesText"/>
+
+    <LinearLayout
+        style="@style/mediaButtonsLayout">
+
+        <ImageView
+            android:id="@+id/volumeDown"
+            android:src="@drawable/ic_volume_down_black_24dp"
+            style="@style/mediaButtons"/>
+
+        <SeekBar
+            android:id="@+id/volumeBar"
+            style="@style/volumeBar" />
+
+        <ImageView
+            android:id="@+id/volumeUp"
+            android:src="@drawable/ic_volume_up_black_24dp"
+            style="@style/mediaButtons"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/mediaButtonsLayout">
+
+        <ImageView
+            android:id="@+id/previous"
+            android:src="@drawable/ic_skip_previous_black_24dp"
+            style="@style/mediaButtons"/>
+
+        <ImageView
+            android:id="@+id/playPause"
+            android:src="@drawable/ic_play_circle_filled_black_24dp"
+            style="@style/mediaButtons"/>
+
+        <ImageView
+            android:id="@+id/next"
+            android:src="@drawable/ic_skip_next_black_24dp"
+            style="@style/mediaButtons"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/InfoTextView"
+        android:text="@string/nowPayingActivityInfo"/>
+
+</LinearLayout>

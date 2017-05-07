@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ParentLayout"
+    android:background="@drawable/main_background"
+    android:padding="@dimen/mainActivityPadding"
+    tools:context="com.example.android.structuredmusic.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/nowPlayingCategory"
+        style="@style/CategoriesLayout">
+
+        <ImageView
+            style="@style/CategoriesImage"
+            android:src="@drawable/ic_nowplaying" />
+
+        <TextView
+            style="@style/CategoriesText"
+            android:text="@string/nowPlayingCategory" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/albumsCategory"
+        style="@style/CategoriesLayout">
+
+        <ImageView
+            style="@style/CategoriesImage"
+            android:src="@drawable/ic_albums" />
+
+        <TextView
+            style="@style/CategoriesText"
+            android:text="@string/albumsCategory" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/songsCategory"
+        style="@style/CategoriesLayout">
+
+        <ImageView
+            style="@style/CategoriesImage"
+            android:src="@drawable/ic_songs" />
+
+        <TextView
+            style="@style/CategoriesText"
+            android:text="@string/songsCategory" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/playlistsCategory"
+        style="@style/CategoriesLayout">
+
+        <ImageView
+            style="@style/CategoriesImage"
+            android:src="@drawable/ic_playlists" />
+
+        <TextView
+            style="@style/CategoriesText"
+            android:text="@string/playlistsCategory" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/InfoTextView"
+        android:text="@string/mainActivityInfo" />
+
+</LinearLayout>

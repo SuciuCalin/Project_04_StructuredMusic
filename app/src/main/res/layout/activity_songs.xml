@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ParentLayout">
+
+    <LinearLayout
+        style="@style/CategoriesLayout">
+
+        <Button
+            android:id="@+id/nowPlayingButton"
+            android:background="@drawable/ic_nowplaying"
+            style="@style/CategoriesButtons"/>
+
+        <Button
+            android:id="@+id/albumsButton"
+            android:background="@drawable/ic_albums"
+            style="@style/CategoriesButtons"/>
+
+        <Button
+            android:id="@+id/songsButton"
+            android:background="@drawable/ic_songs"
+            android:backgroundTint="@color/selectedCategory"
+            style="@style/CategoriesButtons"/>
+
+        <Button
+            android:id="@+id/playlistsButton"
+            android:background="@drawable/ic_playlists"
+            style="@style/CategoriesButtons"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/SeparationView"/>
+
+    <LinearLayout
+        android:id="@+id/songInfo"
+        style="@style/CategoriesLayout">
+
+        <ImageView
+            android:id="@+id/songImage"
+            android:src="@drawable/ic_playlists"
+            style="@style/CategoriesImage"/>
+
+        <TextView
+            android:id="@+id/albumName"
+            android:text="@string/songs"
+            style="@style/CategoriesText"/>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/InfoTextView"
+        android:text="@string/songsActivityInfo"/>
+
+</LinearLayout>

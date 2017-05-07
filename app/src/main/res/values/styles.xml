@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--Parent Linear Layouts style-->
+    <style name="ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <!--category layout style-->
+    <style name="CategoriesLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <!--category images style-->
+    <style name="CategoriesImage">
+        <item name="android:layout_width">@dimen/categoryImageSize</item>
+        <item name="android:layout_height">@dimen/categoryImageSize</item>
+    </style>
+
+
+    <!--main_activity category Text style-->
+    <style name="CategoriesText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/categoryTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/categoryTextPadding</item>
+    </style>
+
+
+    <!--Informational Text View style-->
+    <style name="InfoTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/infoTextViewMargin</item>
+        <item name="android:background">@color/infoBackground</item>
+        <item name="android:textColor">@color/InfoText</item>
+    </style>
+
+
+    <!--category navigation Buttons style-->
+    <style name="CategoriesButtons">
+        <item name="android:layout_width">@dimen/categoryButtonSize</item>
+        <item name="android:layout_height">@dimen/categoryButtonSize</item>
+        <item name="android:layout_weight">@integer/categoryButtonWeight</item>
+    </style>
+
+
+    <!--separation View Style-->
+    <style name="SeparationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/separationViewHeight</item>
+        <item name="android:layout_marginLeft">@dimen/separationViewMargin</item>
+        <item name="android:layout_marginRight">@dimen/separationViewMargin</item>
+        <item name="android:background">@color/separationViewBackground</item>
+    </style>
+
+
+    <!--now playing display image style-->
+    <style name="nowPlayingImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/nowPlayingImageHeight</item>
+        <item name="android:layout_weight">@integer/nowPlayingImageWeight</item>
+    </style>
+
+
+    <!--now playing media buttons layout-->
+    <style name="mediaButtonsLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/mediaButtonsLayoutPadding</item>
+    </style>
+
+
+    <!--now playing media buttons style-->
+    <style name="mediaButtons">
+        <item name="android:layout_width">@dimen/mediaButtonsWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/mediaButtonsWeight</item>
+    </style>
+
+
+    <!--now playing volume bar style-->
+    <style name="volumeBar">
+        <item name="android:layout_width">@dimen/volumeBarWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/volumeBarWeight</item>
+        <item name="android:max">@integer/volumeBarMax</item>
+        <item name="android:progress">@integer/volumeBarProgress</item>
+    </style>
+
+</resources>

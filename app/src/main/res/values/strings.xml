@@ -1,0 +1,52 @@
+<resources>
+
+    <!--app name-->
+    <string name="app_name">Structured Music</string>
+
+    <!--main_activity strings-->
+    <string name="nowPlayingCategory">Now Playing</string>
+    <string name="albumsCategory">Albums</string>
+    <string name="songsCategory">Songs</string>
+    <string name="playlistsCategory">Playlists</string>
+    <string name="mainActivityInfo">
+        This activity is shown only when the app is launched, and it presents the category choices for the user.
+        \nEvery other activity can be accessed from here.
+    </string>
+
+    <!--activity_albums strings-->
+    <string name="albums">Sample Album 01</string>
+    <string name="albumActivityInfo">
+        This activity shows the albums in  a list.\n
+        \nThe album art will be collected using the MediaMetaDataRetriever class.\n
+        \nPressing on an album will open the songs activity showing the songs from the album.\n
+        \nEvery other activity can be accessed from the activity buttons at the top.
+    </string>
+
+    <!--activity_playlists strings-->
+    <string name="playlists">Sample Playlist 01</string>
+    <string name="playlistsActivityInfo">
+        This activity shows the playlists in a list.\n
+        \nPressing on a playlist will open the now playing activity and start playing the songs.\n
+        \nEvery other activity can be accessed from the activity buttons at the top.
+    </string>
+
+    <!--activity_songs strings-->
+    <string name="songs">Sample Song 01</string>
+    <string name="songsActivityInfo">
+        This activity shows the songs in a list.\n
+        \nPressing on a song will open the now playing activity and play the song.\n
+        \nEvery other activity can be accessed from the activity buttons at the top.
+    </string>
+
+    <!--activity_now_playing strings-->
+    <string name="nowPlaying">Sample Artist 01 - Sample song 01</string>
+    <string name="nowPayingActivityInfo">
+        This activity will show and play the current song.\n
+        \nThere are buttons for moving to the next and to the previous songs in the playlist, and for adjusting the volume.\n
+        \nThe user would be able also to adjust the volume, from the seek bar which shows the volume state.\n
+        \nThe play music functionality will be implemented using the MediaPlayer class.\n
+        \nEvery other activity can be accessed from the activity buttons at the top.
+    </string>
+
+</resources>
+

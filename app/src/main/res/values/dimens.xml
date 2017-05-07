@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--main_activity parent layout padding-->
+    <dimen name="mainActivityPadding">64dp</dimen>
+
+    <!--category images size-->
+    <dimen name="categoryImageSize">90dp</dimen>
+
+    <!--main_activity category Text dimens-->
+    <dimen name="categoryTextSize">24sp</dimen>
+    <dimen name="categoryTextPadding">16dp</dimen>
+
+    <!--category navigation Buttons dimens-->
+    <dimen name="categoryButtonSize">90dp</dimen>
+    <integer name="categoryButtonWeight">1</integer>
+
+    <!--Informational Text View dimens-->
+    <dimen name="infoTextViewMargin">16dp</dimen>
+
+    <!--separation View dimens-->
+    <dimen name="separationViewHeight">1dp</dimen>
+    <dimen name="separationViewMargin">16dp</dimen>
+
+    <!--now playing display image dimens-->
+    <dimen name="nowPlayingImageHeight">0dp</dimen>
+    <integer name="nowPlayingImageWeight">2</integer>
+
+    <!--now playing media buttons layout dimens-->
+    <dimen name="mediaButtonsLayoutPadding">8dp</dimen>
+
+    <!--now playing media buttons dimens-->
+    <dimen name="mediaButtonsWidth">0dp</dimen>
+    <integer name="mediaButtonsWeight">1</integer>
+
+    <!--now playing volume bar dimens-->
+    <dimen name="volumeBarWidth">0dp</dimen>
+    <integer name="volumeBarWeight">4</integer>
+    <integer name="volumeBarMax">100</integer>
+    <integer name="volumeBarProgress">10</integer>
+
+</resources>
